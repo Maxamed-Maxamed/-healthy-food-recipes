@@ -6,3 +6,4 @@ export const searchRecipes = async (query, filters) => {
   const data = await response.json();
   return data.results;
 };
+
